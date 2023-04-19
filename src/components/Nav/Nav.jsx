@@ -3,7 +3,7 @@ import { Nav } from "react-bootstrap";
 const NavTabs = ({ currentPage, handlePageChange }) => {
   const links = [
     { name: "Home", href: "#home" },
-    { name: "Projects", href: "#projects" },
+    { name: "Work", href: "#work" },
     { name: "Contact", href: "#contact" },
     { name: "Resume", href: "#resume" },
   ];

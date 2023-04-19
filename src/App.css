@@ -1,9 +1,19 @@
-/* #root {
-  max-width: 1280px;
+#body {
+  background-color: #22221C;
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ #root {
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: #D8E1E9;
+  font-weight: bold;
 }
+
+/* #9091B6 */
 
 .logo {
   height: 6em;
@@ -39,4 +49,4 @@
 
 .read-the-docs {
   color: #888;
-} */
+} 

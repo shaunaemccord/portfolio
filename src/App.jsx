@@ -5,14 +5,19 @@ import './App.css'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import Home from "./pages/Home/Home"
+import Container from "./components/Container/"
+import Contact from './pages/Contact/Contact'
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <Header />
-      <Nav />
-      <Home />
+      {/* <Nav /> */}
+      <Container />
+      {/* <Home />
+      <Contact /> */}
+      
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

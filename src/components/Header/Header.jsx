@@ -6,7 +6,7 @@ const Header = () => {
       <Navbar className="justify-content-center header">
         <Container>
           <Navbar.Brand>
-            <h1>Welcome!</h1>
+            <h1>Shauna McCord ASL Interpreting</h1>
           </Navbar.Brand>
         </Container>
       </Navbar>
